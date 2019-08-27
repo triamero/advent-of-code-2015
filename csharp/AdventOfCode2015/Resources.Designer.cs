@@ -142,5 +142,14 @@ namespace AdventOfCode2015 {
                 return ResourceManager.GetString("Day3", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to bgvyzdsv.
+        /// </summary>
+        internal static string Day4 {
+            get {
+                return ResourceManager.GetString("Day4", resourceCulture);
+            }
+        }
     }
 }
