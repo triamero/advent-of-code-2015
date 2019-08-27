@@ -26,7 +26,8 @@ namespace AdventOfCode2015
             return new IDay[]
             {
                 new Day1(),
-                new Day2()
+                new Day2(),
+                new Day3()
             };
         }
     }

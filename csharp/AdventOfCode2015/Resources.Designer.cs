@@ -133,5 +133,14 @@ namespace AdventOfCode2015 {
                 return ResourceManager.GetString("Day2", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to v&gt;v&lt;vvv&lt;&lt;vv^v&lt;v&gt;vv&gt;v&lt;&lt;&lt;^^^^^&lt;&lt;^&lt;vv&gt;^&gt;v^&gt;^&gt;^&gt;^&gt;^&gt;&lt;vvvv&lt;^&gt;^&lt;&lt;^&gt;&lt;&lt;&lt;^vvvv&gt;^&gt;^&gt;&lt;^v^&gt;&lt;^&lt;&gt;^^&gt;^vvv^&lt;vv&gt;&gt;^&gt;^^&lt;&gt;&gt;&lt;&gt;^&gt;vvv&gt;&gt;^vv&gt;^&lt;&gt;&lt;&gt;^&lt;v^&gt;^&gt;^&gt;&lt;vv^vv^&gt;&gt;&lt;&lt;^&gt;&lt;&lt;v&gt;&gt;&lt;&gt;^&lt;^&gt;&gt;vvv&gt;v&gt;&gt;&gt;v&lt;&lt;^&lt;&gt;&lt;^&lt;v&lt;&gt;v&gt;^^v^^^&lt;^v^^&gt;&gt;&gt;&lt;^&gt;^&gt;v&lt;&gt;^&lt;&gt;&gt;^&gt;^^v^&gt;&lt;v&lt;v&gt;&gt;&gt;&lt;&gt;v&lt;v^v&gt;^v&lt;&gt;&gt;^&gt;&lt;v&gt;^&lt;&gt;v^&gt;^&lt;&gt;^v^^^v^^&gt;&gt;vv&lt;&lt;^^&gt;&lt;^&lt;vvv&gt;^&gt;^^&lt;^&gt;&gt;^^^^^v^&lt;v&gt;vv&lt;&gt;&gt;v^v&lt;^v^^&lt;&gt;&lt;^&lt;^vv^&gt;&lt;&gt;&gt;&lt;&gt;&lt;&gt;v&gt;vvv^vv^^&lt;&lt;&gt;&lt;&lt;vvv&gt;&lt;&lt;^v^&gt;&lt;v&lt;&gt;vvv^&lt;^&gt;vvvv^&gt;^&gt;&gt;^v^&lt;v^vv&lt;^^v&lt;&gt;v&gt;vv^&lt;&gt;&gt;&lt;v&lt;&lt;&lt;^v^&lt;&lt;&gt;&lt;v&lt;^&lt;^&lt;&gt;&lt;^^^&gt;^&gt;&gt;v&gt;^&gt;v^&lt;&gt;v&gt;&lt;^&l....
+        /// </summary>
+        internal static string Day3 {
+            get {
+                return ResourceManager.GetString("Day3", resourceCulture);
+            }
+        }
     }
 }
