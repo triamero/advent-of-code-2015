@@ -18,23 +18,14 @@ namespace AdventOfCode2015.Tests
         [TestCase(")())())", ExpectedResult = -3)]
         public int GetAnswerPart1_Test(string input)
         {
-            var target = CreateTarget();
-
-            return target.GetAnswerPart1(input);
+            return new Day1().GetAnswerPart1(input);
         }
 
         [TestCase(")", ExpectedResult = 1)]
         [TestCase("()())", ExpectedResult = 5)]
         public int GetAnswerPart2_Test(string input)
         {
-            var target = CreateTarget();
-
-            return target.GetAnswerPart2(input);
-        }
-
-        private Day1 CreateTarget()
-        {
-            return new Day1();
+            return new Day1().GetAnswerPart2(input);
         }
     }
 }

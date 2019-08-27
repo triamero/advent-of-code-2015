@@ -8,18 +8,14 @@ namespace AdventOfCode2015.Tests
         [TestCase("1x1x10", ExpectedResult = 43)]
         public int GetAnswerPart1_Test(string input)
         {
-            var target = new Day2();
-
-            return target.GetAnswerPart1(input);
+            return new Day2().GetAnswerPart1(input);
         }
 
         [TestCase("2x3x4", ExpectedResult = 34)]
         [TestCase("1x1x10", ExpectedResult = 14)]
         public int GetAnswerPart2_Test(string input)
         {
-            var target = new Day2();
-
-            return target.GetAnswerPart2(input);
+            return new Day2().GetAnswerPart2(input);
         }
     }
 }
