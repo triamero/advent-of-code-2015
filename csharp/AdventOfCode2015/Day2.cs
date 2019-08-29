@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace AdventOfCode2015
@@ -52,7 +51,7 @@ namespace AdventOfCode2015
 
         private IEnumerable<(int Lenght, int Width, int Height)> GetLines(string input)
         {
-            foreach (var line in input.Split('\r', StringSplitOptions.RemoveEmptyEntries))
+            foreach (var line in input.SplitLines())
             {
                 var data = line.Trim().Split('x').Select(x => int.Parse(x)).ToArray();
 

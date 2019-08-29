@@ -151,5 +151,42 @@ namespace AdventOfCode2015 {
                 return ResourceManager.GetString("Day4", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rthkunfaakmwmush
+        ///qxlnvjguikqcyfzt
+        ///sleaoasjspnjctqt
+        ///lactpmehuhmzwfjl
+        ///bvggvrdgjcspkkyj
+        ///nwaceixfiasuzyoz
+        ///hsapdhrxlqoiumqw
+        ///lsitcmhlehasgejo
+        ///hksifrqlsiqkzyex
+        ///dfwuxtexmnvjyxqc
+        ///iawwfwylyrcbxwak
+        ///mamtkmvvaeeifnve
+        ///qiqtuihvsaeebjkd
+        ///skerkykytazvbupg
+        ///kgnxaylpgbdzedoo
+        ///plzkdktirhmumcuf
+        ///pexcckdvsrahvbop
+        ///jpocepxixeqjpigq
+        ///vnsvxizubavwrhtc
+        ///lqveclebkwnajppk
+        ///ikbzllevuwxscogb
+        ///xvfmkozbxzfuezjt
+        ///ukeazxczeejwoxli
+        ///tvtnlwcmhuezwney
+        ///hoamfvwwcarfuqro
+        ///wkvnmvqllphnsbnf
+        ///kiggbamoppmfhmlf
+        ///ughbudqakuskbiik
+        ///avccmvev [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day5 {
+            get {
+                return ResourceManager.GetString("Day5", resourceCulture);
+            }
+        }
     }
 }
