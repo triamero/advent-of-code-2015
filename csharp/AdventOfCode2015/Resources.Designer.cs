@@ -188,5 +188,33 @@ namespace AdventOfCode2015 {
                 return ResourceManager.GetString("Day5", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AlphaCentauri to Snowdin = 66
+        ///AlphaCentauri to Tambi = 28
+        ///AlphaCentauri to Faerun = 60
+        ///AlphaCentauri to Norrath = 34
+        ///AlphaCentauri to Straylight = 34
+        ///AlphaCentauri to Tristram = 3
+        ///AlphaCentauri to Arbre = 108
+        ///Snowdin to Tambi = 22
+        ///Snowdin to Faerun = 12
+        ///Snowdin to Norrath = 91
+        ///Snowdin to Straylight = 121
+        ///Snowdin to Tristram = 111
+        ///Snowdin to Arbre = 71
+        ///Tambi to Faerun = 39
+        ///Tambi to Norrath = 113
+        ///Tambi to Straylight = 130
+        ///Tambi to Tristram = 35
+        ///Tambi to Arbre = 40
+        ///Faerun to Norrath = 63
+        ///Fae [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day9 {
+            get {
+                return ResourceManager.GetString("Day9", resourceCulture);
+            }
+        }
     }
 }
