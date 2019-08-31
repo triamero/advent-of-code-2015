@@ -33,7 +33,8 @@ namespace AdventOfCode2015
                 //new Day4()
                 new Day5(),
                 //new Day9(),
-                new Day11()
+                new Day11(),
+                new Day12()
             };
         }
     }

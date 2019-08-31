@@ -79,6 +79,15 @@ namespace AdventOfCode2015 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to [{&quot;a&quot;:{&quot;e&quot;:{&quot;e&quot;:161,&quot;a&quot;:&quot;blue&quot;,&quot;d&quot;:{&quot;e&quot;:-14,&quot;a&quot;:&quot;red&quot;,&quot;d&quot;:{&quot;c&quot;:&quot;yellow&quot;,&quot;a&quot;:[-35,0],&quot;b&quot;:&quot;orange&quot;,&quot;d&quot;:{&quot;e&quot;:70,&quot;a&quot;:&quot;green&quot;,&quot;d&quot;:&quot;blue&quot;,&quot;j&quot;:12,&quot;c&quot;:69,&quot;h&quot;:&quot;orange&quot;,&quot;b&quot;:92,&quot;g&quot;:&quot;yellow&quot;,&quot;f&quot;:&quot;green&quot;,&quot;i&quot;:121}},&quot;c&quot;:&quot;blue&quot;,&quot;h&quot;:14,&quot;b&quot;:46,&quot;g&quot;:62,&quot;f&quot;:[179]},&quot;j&quot;:{&quot;e&quot;:133,&quot;c&quot;:&quot;violet&quot;,&quot;a&quot;:&quot;orange&quot;,&quot;b&quot;:&quot;blue&quot;,&quot;d&quot;:&quot;violet&quot;},&quot;c&quot;:{&quot;e&quot;:151,&quot;a&quot;:&quot;violet&quot;,&quot;d&quot;:{&quot;e&quot;:&quot;red&quot;,&quot;c&quot;:93,&quot;a&quot;:135,&quot;g&quot;:{&quot;e&quot;:43,&quot;c&quot;:&quot;green&quot;,&quot;a&quot;:&quot;orange&quot;,....
+        /// </summary>
+        internal static string Day12 {
+            get {
+                return ResourceManager.GetString("Day12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 20x3x11
         ///15x27x5
         ///6x29x7
