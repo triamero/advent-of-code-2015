@@ -9,7 +9,7 @@ namespace AdventOfCode2015.Tests
         [TestCase("jchzalrnumimnmhp", ExpectedResult = 0)]
         [TestCase("haegwjzuvuyypxyu", ExpectedResult = 0)]
         [TestCase("dvszwmarrgswjxmb", ExpectedResult = 0)]
-        public int GetAnswerPart1_Test(string input)
+        public object GetAnswerPart1_Test(string input)
         {
             return new Day5().GetAnswerPart1(input);
         }
@@ -18,7 +18,7 @@ namespace AdventOfCode2015.Tests
         [TestCase("xxyxx", ExpectedResult = 1)]
         [TestCase("ieodomkazucvgmuy", ExpectedResult = 0)]
         [TestCase("uurcxstgmygtbstg", ExpectedResult = 0)]
-        public int GetAnswerPart2_Test(string input)
+        public object GetAnswerPart2_Test(string input)
         {
             return new Day5().GetAnswerPart2(input);
         }

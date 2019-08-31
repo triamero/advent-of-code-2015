@@ -14,7 +14,7 @@ namespace AdventOfCode2015
             }
         }
 
-        public int GetAnswerPart1(string input)
+        public object GetAnswerPart1(string input)
         {
             var routes = GetInputRoutes(input);
 
@@ -63,7 +63,7 @@ namespace AdventOfCode2015
             return minDistance;
         }
 
-        public int GetAnswerPart2(string input)
+        public object GetAnswerPart2(string input)
         {
             var routes = GetInputRoutes(input);
 

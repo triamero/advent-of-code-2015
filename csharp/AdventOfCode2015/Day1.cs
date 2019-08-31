@@ -10,7 +10,7 @@
             }
         }
 
-        public int GetAnswerPart1(string input)
+        public object GetAnswerPart1(string input)
         {
             int position = 0;
 
@@ -31,7 +31,7 @@
             return position;
         }
 
-        public int GetAnswerPart2(string input)
+        public object GetAnswerPart2(string input)
         {
             int position = 0;
 

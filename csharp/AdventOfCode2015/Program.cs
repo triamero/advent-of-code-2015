@@ -10,11 +10,13 @@ namespace AdventOfCode2015
 
             foreach (var day in days)
             {
-                Console.WriteLine(
-                    "{0}. Answers are: part1={1} part2={2}",
-                    day.GetType().Name,
-                    day.GetAnswerPart1(day.Puzzle),
-                    day.GetAnswerPart2(day.Puzzle));
+                Console.Write("{0}. Answers: ", day.GetType().Name);
+
+                Console.Write("part1={0}", day.GetAnswerPart1(day.Puzzle));
+
+                Console.Write(" ");
+
+                Console.WriteLine("part2={0}", day.GetAnswerPart2(day.Puzzle));
             }
 
             Console.WriteLine("Press 'X' to win");
@@ -30,7 +32,8 @@ namespace AdventOfCode2015
                 new Day3(),
                 //new Day4()
                 new Day5(),
-                new Day9()
+                //new Day9(),
+                new Day11()
             };
         }
     }

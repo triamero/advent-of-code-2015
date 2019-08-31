@@ -17,7 +17,7 @@ namespace AdventOfCode2015
             }
         }
 
-        public int GetAnswerPart1(string input)
+        public object GetAnswerPart1(string input)
         {
             var lines = input.SplitLines();
 
@@ -63,7 +63,7 @@ namespace AdventOfCode2015
             return result;
         }
 
-        public int GetAnswerPart2(string input)
+        public object GetAnswerPart2(string input)
         {
             var result = 0;
 

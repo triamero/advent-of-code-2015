@@ -13,7 +13,7 @@ namespace AdventOfCode2015
             }
         }
 
-        public int GetAnswerPart1(string input)
+        public object GetAnswerPart1(string input)
         {
             int answer = 0;
 
@@ -31,7 +31,7 @@ namespace AdventOfCode2015
             return answer;
         }
 
-        public int GetAnswerPart2(string input)
+        public object GetAnswerPart2(string input)
         {
             int answer = 0;
 

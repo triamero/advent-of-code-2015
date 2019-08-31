@@ -14,12 +14,12 @@ namespace AdventOfCode2015
             }
         }
 
-        public int GetAnswerPart1(string input)
+        public object GetAnswerPart1(string input)
         {
             return GetAnswer(input, 5);
         }
 
-        public int GetAnswerPart2(string input)
+        public object GetAnswerPart2(string input)
         {
             return GetAnswer(input, 6);
         }

@@ -70,6 +70,15 @@ namespace AdventOfCode2015 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to vzbxkghb.
+        /// </summary>
+        internal static string Day11 {
+            get {
+                return ResourceManager.GetString("Day11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 20x3x11
         ///15x27x5
         ///6x29x7

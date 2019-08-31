@@ -16,14 +16,14 @@ namespace AdventOfCode2015.Tests
 
         [TestCase(")))", ExpectedResult = -3)]
         [TestCase(")())())", ExpectedResult = -3)]
-        public int GetAnswerPart1_Test(string input)
+        public object GetAnswerPart1_Test(string input)
         {
             return new Day1().GetAnswerPart1(input);
         }
 
         [TestCase(")", ExpectedResult = 1)]
         [TestCase("()())", ExpectedResult = 5)]
-        public int GetAnswerPart2_Test(string input)
+        public object GetAnswerPart2_Test(string input)
         {
             return new Day1().GetAnswerPart2(input);
         }

@@ -4,8 +4,8 @@
     {
         string Puzzle { get; }
 
-        int GetAnswerPart1(string input);
+        object GetAnswerPart1(string input);
 
-        int GetAnswerPart2(string input);
+        object GetAnswerPart2(string input);
     }
 }

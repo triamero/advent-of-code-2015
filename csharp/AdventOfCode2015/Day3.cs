@@ -13,14 +13,14 @@ namespace AdventOfCode2015
             }
         }
 
-        public int GetAnswerPart1(string input)
+        public object GetAnswerPart1(string input)
         {
             var uniquePoints = WalkByInstructions(input, 0, 1);
 
             return uniquePoints.Count;
         }
 
-        public int GetAnswerPart2(string input)
+        public object GetAnswerPart2(string input)
         {
             var uniquePoints1 = WalkByInstructions(input, 0, 2);
             var uniquePoints2 = WalkByInstructions(input, 1, 2);
