@@ -208,6 +208,30 @@ namespace AdventOfCode2015 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to turn off 660,55 through 986,197
+        ///turn off 341,304 through 638,850
+        ///turn off 199,133 through 461,193
+        ///toggle 322,558 through 977,958
+        ///toggle 537,781 through 687,941
+        ///turn on 226,196 through 599,390
+        ///turn on 240,129 through 703,297
+        ///turn on 317,329 through 451,798
+        ///turn on 957,736 through 977,890
+        ///turn on 263,530 through 559,664
+        ///turn on 158,270 through 243,802
+        ///toggle 223,39 through 454,511
+        ///toggle 544,218 through 979,872
+        ///turn on 313,306 through 363,621
+        ///toggle 173,401 through 496,407
+        ///toggle 333,60 through [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day6 {
+            get {
+                return ResourceManager.GetString("Day6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to AlphaCentauri to Snowdin = 66
         ///AlphaCentauri to Tambi = 28
         ///AlphaCentauri to Faerun = 60
