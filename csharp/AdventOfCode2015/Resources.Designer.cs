@@ -70,6 +70,15 @@ namespace AdventOfCode2015 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 329356.
+        /// </summary>
+        internal static string Day10 {
+            get {
+                return ResourceManager.GetString("Day10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to vzbxkghb.
         /// </summary>
         internal static string Day11 {
@@ -84,6 +93,163 @@ namespace AdventOfCode2015 {
         internal static string Day12 {
             get {
                 return ResourceManager.GetString("Day12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alice would lose 57 happiness units by sitting next to Bob.
+        ///Alice would lose 62 happiness units by sitting next to Carol.
+        ///Alice would lose 75 happiness units by sitting next to David.
+        ///Alice would gain 71 happiness units by sitting next to Eric.
+        ///Alice would lose 22 happiness units by sitting next to Frank.
+        ///Alice would lose 23 happiness units by sitting next to George.
+        ///Alice would lose 76 happiness units by sitting next to Mallory.
+        ///Bob would lose 14 happiness units by sitting next to Alice.
+        ///Bob would  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day13 {
+            get {
+                return ResourceManager.GetString("Day13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vixen can fly 8 km/s for 8 seconds, but then must rest for 53 seconds.
+        ///Blitzen can fly 13 km/s for 4 seconds, but then must rest for 49 seconds.
+        ///Rudolph can fly 20 km/s for 7 seconds, but then must rest for 132 seconds.
+        ///Cupid can fly 12 km/s for 4 seconds, but then must rest for 43 seconds.
+        ///Donner can fly 9 km/s for 5 seconds, but then must rest for 38 seconds.
+        ///Dasher can fly 10 km/s for 4 seconds, but then must rest for 37 seconds.
+        ///Comet can fly 3 km/s for 37 seconds, but then must rest for 76 second [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day14 {
+            get {
+                return ResourceManager.GetString("Day14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Frosting: capacity 4, durability -2, flavor 0, texture 0, calories 5
+        ///Candy: capacity 0, durability 5, flavor -1, texture 0, calories 8
+        ///Butterscotch: capacity -1, durability 0, flavor 5, texture 0, calories 6
+        ///Sugar: capacity 0, durability 0, flavor -2, texture 2, calories 1.
+        /// </summary>
+        internal static string Day15 {
+            get {
+                return ResourceManager.GetString("Day15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sue 1: cars: 9, akitas: 3, goldfish: 0
+        ///Sue 2: akitas: 9, children: 3, samoyeds: 9
+        ///Sue 3: trees: 6, cars: 6, children: 4
+        ///Sue 4: trees: 4, vizslas: 4, goldfish: 9
+        ///Sue 5: akitas: 9, vizslas: 7, cars: 5
+        ///Sue 6: vizslas: 6, goldfish: 6, akitas: 3
+        ///Sue 7: pomeranians: 5, samoyeds: 0, perfumes: 10
+        ///Sue 8: cars: 10, pomeranians: 7, goldfish: 8
+        ///Sue 9: trees: 2, vizslas: 7, samoyeds: 6
+        ///Sue 10: perfumes: 5, pomeranians: 4, children: 9
+        ///Sue 11: vizslas: 5, perfumes: 8, cars: 10
+        ///Sue 12: children: 10, cars: 6, per [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day16 {
+            get {
+                return ResourceManager.GetString("Day16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 11
+        ///30
+        ///47
+        ///31
+        ///32
+        ///36
+        ///3
+        ///1
+        ///5
+        ///3
+        ///32
+        ///36
+        ///15
+        ///11
+        ///46
+        ///26
+        ///28
+        ///1
+        ///19
+        ///3.
+        /// </summary>
+        internal static string Day17 {
+            get {
+                return ResourceManager.GetString("Day17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ####.#.##.###.#.#.##.#..###.#..#.#.#..##....#.###...##..###.##.#.#.#.##...##..#..#....#.#.##..#...##
+        ///.##...##.##.######.#.#.##...#.#.#.#.#...#.##.#..#.#.####...#....#....###.#.#.#####....#.#.##.#.#.##.
+        ///###.##..#..#####.......#.########...#.####.###....###.###...#...####.######.#..#####.#.###....####..
+        ///....#..#..#....###.##.#.....##...#.###.#.#.#..#.#..##...#....#.##.###.#...######......#..#.#..####.#
+        ///..###.####..#.#.#..##.#.#....#......#.##.##..##.#.....##.###.#..###...###.#.##..#.#..###....####.#.#
+        ///#. [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day18 {
+            get {
+                return ResourceManager.GetString("Day18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al =&gt; ThF
+        ///Al =&gt; ThRnFAr
+        ///B =&gt; BCa
+        ///B =&gt; TiB
+        ///B =&gt; TiRnFAr
+        ///Ca =&gt; CaCa
+        ///Ca =&gt; PB
+        ///Ca =&gt; PRnFAr
+        ///Ca =&gt; SiRnFYFAr
+        ///Ca =&gt; SiRnMgAr
+        ///Ca =&gt; SiTh
+        ///F =&gt; CaF
+        ///F =&gt; PMg
+        ///F =&gt; SiAl
+        ///H =&gt; CRnAlAr
+        ///H =&gt; CRnFYFYFAr
+        ///H =&gt; CRnFYMgAr
+        ///H =&gt; CRnMgYFAr
+        ///H =&gt; HCa
+        ///H =&gt; NRnFYFAr
+        ///H =&gt; NRnMgAr
+        ///H =&gt; NTh
+        ///H =&gt; OB
+        ///H =&gt; ORnFAr
+        ///Mg =&gt; BF
+        ///Mg =&gt; TiMg
+        ///N =&gt; CRnFAr
+        ///N =&gt; HSi
+        ///O =&gt; CRnFYFAr
+        ///O =&gt; CRnMgAr
+        ///O =&gt; HP
+        ///O =&gt; NRnFAr
+        ///O =&gt; OTi
+        ///P =&gt; CaP
+        ///P =&gt; PTi
+        ///P =&gt; SiRnFAr
+        ///Si =&gt; CaSi
+        ///Th =&gt; ThCa
+        ///Ti =&gt; BP
+        ///Ti =&gt; TiTi
+        ///e =&gt; HF
+        ///e =&gt; NAl
+        ///e [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day19 {
+            get {
+                return ResourceManager.GetString("Day19", resourceCulture);
             }
         }
         
@@ -144,11 +310,149 @@ namespace AdventOfCode2015 {
         ///5x24x17
         ///15x17x15
         ///26x15x10
-        ///22 [rest of string was truncated]&quot;;.
+        ///22x16x3
+        ///20x24x24
+        ///8x18x10
+        ///23x19x16
+        ///1x21x24
+        ///23x23x9
+        ///14x20x6
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day2 {
             get {
                 return ResourceManager.GetString("Day2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 36000000.
+        /// </summary>
+        internal static string Day20 {
+            get {
+                return ResourceManager.GetString("Day20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hit Points: 104
+        ///Damage: 8
+        ///Armor: 1.
+        /// </summary>
+        internal static string Day21 {
+            get {
+                return ResourceManager.GetString("Day21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hit Points: 51
+        ///Damage: 9.
+        /// </summary>
+        internal static string Day22 {
+            get {
+                return ResourceManager.GetString("Day22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to jio a, +22
+        ///inc a
+        ///tpl a
+        ///tpl a
+        ///tpl a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///inc a
+        ///tpl a
+        ///jmp +19
+        ///tpl a
+        ///tpl a
+        ///tpl a
+        ///tpl a
+        ///inc a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///inc a
+        ///tpl a
+        ///inc a
+        ///tpl a
+        ///tpl a
+        ///jio a, +8
+        ///inc b
+        ///jie a, +4
+        ///tpl a
+        ///inc a
+        ///jmp +2
+        ///hlf a
+        ///jmp -7.
+        /// </summary>
+        internal static string Day23 {
+            get {
+                return ResourceManager.GetString("Day23", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1
+        ///3
+        ///5
+        ///11
+        ///13
+        ///17
+        ///19
+        ///23
+        ///29
+        ///31
+        ///41
+        ///43
+        ///47
+        ///53
+        ///59
+        ///61
+        ///67
+        ///71
+        ///73
+        ///79
+        ///83
+        ///89
+        ///97
+        ///101
+        ///103
+        ///107
+        ///109
+        ///113.
+        /// </summary>
+        internal static string Day24 {
+            get {
+                return ResourceManager.GetString("Day24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To continue, please consult the code grid in the manual.  Enter the code at row 2981, column 3075..
+        /// </summary>
+        internal static string Day25 {
+            get {
+                return ResourceManager.GetString("Day25", resourceCulture);
             }
         }
         
@@ -199,7 +503,9 @@ namespace AdventOfCode2015 {
         ///wkvnmvqllphnsbnf
         ///kiggbamoppmfhmlf
         ///ughbudqakuskbiik
-        ///avccmvev [rest of string was truncated]&quot;;.
+        ///avccmveveqwhnjdx
+        ///llhqxueawluwmygt
+        ///mg [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day5 {
             get {
@@ -223,11 +529,87 @@ namespace AdventOfCode2015 {
         ///toggle 544,218 through 979,872
         ///turn on 313,306 through 363,621
         ///toggle 173,401 through 496,407
-        ///toggle 333,60 through [rest of string was truncated]&quot;;.
+        ///toggle 333,60 through 748,159
+        ///turn o [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day6 {
             get {
                 return ResourceManager.GetString("Day6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to bn RSHIFT 2 -&gt; bo
+        ///lf RSHIFT 1 -&gt; ly
+        ///fo RSHIFT 3 -&gt; fq
+        ///cj OR cp -&gt; cq
+        ///fo OR fz -&gt; ga
+        ///t OR s -&gt; u
+        ///lx -&gt; a
+        ///NOT ax -&gt; ay
+        ///he RSHIFT 2 -&gt; hf
+        ///lf OR lq -&gt; lr
+        ///lr AND lt -&gt; lu
+        ///dy OR ej -&gt; ek
+        ///1 AND cx -&gt; cy
+        ///hb LSHIFT 1 -&gt; hv
+        ///1 AND bh -&gt; bi
+        ///ih AND ij -&gt; ik
+        ///c LSHIFT 1 -&gt; t
+        ///ea AND eb -&gt; ed
+        ///km OR kn -&gt; ko
+        ///NOT bw -&gt; bx
+        ///ci OR ct -&gt; cu
+        ///NOT p -&gt; q
+        ///lw OR lv -&gt; lx
+        ///NOT lo -&gt; lp
+        ///fp OR fv -&gt; fw
+        ///o AND q -&gt; r
+        ///dh AND dj -&gt; dk
+        ///ap LSHIFT 1 -&gt; bj
+        ///bk LSHIFT 1 -&gt; ce
+        ///NOT ii -&gt; ij
+        ///gh OR gi -&gt; gj
+        ///kk RSHIFT 1 -&gt; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day7 {
+            get {
+                return ResourceManager.GetString("Day7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;sjdivfriyaaqa\xd2v\&quot;k\&quot;mpcu\&quot;yyu\&quot;en&quot;
+        ///&quot;vcqc&quot;
+        ///&quot;zbcwgmbpijcxu\&quot;yins\&quot;sfxn&quot;
+        ///&quot;yumngprx&quot;
+        ///&quot;bbdj&quot;
+        ///&quot;czbggabkzo\&quot;wsnw\&quot;voklp\&quot;s&quot;
+        ///&quot;acwt&quot;
+        ///&quot;aqttwnsohbzian\&quot;evtllfxwkog\&quot;cunzw&quot;
+        ///&quot;ugvsgfv&quot;
+        ///&quot;xlnillibxg&quot;
+        ///&quot;kexh\&quot;pmi&quot;
+        ///&quot;syvugow&quot;
+        ///&quot;m\&quot;ktqnw&quot;
+        ///&quot;yrbajyndte\\rm&quot;
+        ///&quot;f\&quot;kak\x70sn\xc4kjri&quot;
+        ///&quot;yxthr&quot;
+        ///&quot;alvumfsjni\&quot;kohg&quot;
+        ///&quot;trajs\x5brom\xf1yoijaumkem\&quot;\&quot;tahlzs&quot;
+        ///&quot;\&quot;oedr\&quot;pwdbnnrc&quot;
+        ///&quot;qsmzhnx\&quot;&quot;
+        ///&quot;\&quot;msoytqimx\\tbklqz&quot;
+        ///&quot;mjdfcgwdshrehgs&quot;
+        ///&quot;\&quot;rivyxahf\&quot;&quot;
+        ///&quot;ciagc\x04bp&quot;
+        ///&quot;xkfc&quot;
+        ///&quot;xrgcripdu\x4c\xc4gszjhrvumvz\&quot;mngbirb&quot;
+        ///&quot;gvmae\&quot;yiiu [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day8 {
+            get {
+                return ResourceManager.GetString("Day8", resourceCulture);
             }
         }
         
@@ -251,7 +633,7 @@ namespace AdventOfCode2015 {
         ///Tambi to Tristram = 35
         ///Tambi to Arbre = 40
         ///Faerun to Norrath = 63
-        ///Fae [rest of string was truncated]&quot;;.
+        ///Faerun to Straylight = [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day9 {
             get {
