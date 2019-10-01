@@ -1,5 +1,4 @@
-﻿using System;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 namespace AdventOfCode2015
@@ -24,7 +23,7 @@ namespace AdventOfCode2015
             return GetAnswer(input, 6);
         }
 
-        private int GetAnswer(string input, int requiredLeadingZeroes)
+        private static int GetAnswer(string input, int requiredLeadingZeroes)
         {
             string startWith = new string('0', requiredLeadingZeroes);
 

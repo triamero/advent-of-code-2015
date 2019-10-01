@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace AdventOfCode2015
@@ -23,7 +22,7 @@ namespace AdventOfCode2015
                 .Distinct()
                 .ToArray();
 
-            var allRoutes = GetAllRoutes(uniqueVertices);
+            var allRoutes = uniqueVertices.GetAllPermutations();
 
             int minDistance = int.MaxValue;
 
@@ -72,7 +71,7 @@ namespace AdventOfCode2015
                 .Distinct()
                 .ToArray();
 
-            var allRoutes = GetAllRoutes(uniqueVertices);
+            var allRoutes = uniqueVertices.GetAllPermutations();
 
             int maxDistance = int.MinValue;
 
@@ -106,7 +105,7 @@ namespace AdventOfCode2015
             return maxDistance;
         }
 
-        private List<Route> GetInputRoutes(string input)
+        private static List<Route> GetInputRoutes(string input)
         {
             var routes = new List<Route>();
 
@@ -131,35 +130,6 @@ namespace AdventOfCode2015
             }
 
             return routes;
-        }
-
-        private IEnumerable<string[]> GetAllRoutes(string[] uniqueVertices)
-        {
-            var allRoutes = GenerateValues(uniqueVertices)
-                .Where(x => x.Length == x.Distinct().Count())
-                .ToArray();
-
-            return allRoutes;
-        }
-
-        private IEnumerable<string[]> GenerateValues(string[] uniqueVertices)
-        {
-            var totalCount = Math.Pow(uniqueVertices.Length, uniqueVertices.Length);
-
-            for (var i = 0; i < totalCount; i++)
-            {
-                var accum = i;
-
-                var result = new string[uniqueVertices.Length];
-
-                for (var j = uniqueVertices.Length - 1; j >= 0; j--)
-                {
-                    result[j] = uniqueVertices[accum % uniqueVertices.Length];
-                    accum /= uniqueVertices.Length;
-                }
-
-                yield return result;
-            }
         }
 
         private class Route

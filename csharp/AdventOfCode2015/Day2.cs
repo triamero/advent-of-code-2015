@@ -49,7 +49,7 @@ namespace AdventOfCode2015
             return answer;
         }
 
-        private IEnumerable<(int Lenght, int Width, int Height)> GetLines(string input)
+        private static IEnumerable<(int Lenght, int Width, int Height)> GetLines(string input)
         {
             foreach (var line in input.SplitLines())
             {

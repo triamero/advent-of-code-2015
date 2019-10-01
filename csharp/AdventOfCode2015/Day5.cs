@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 
 namespace AdventOfCode2015
 {
     public class Day5 : IDay
     {
-        private static readonly char[] Vowels = new[] { 'a', 'e', 'i', 'o', 'u' };
-        private static readonly string[] InvalidPairs = new[] { "ab", "cd", "pq", "xy" };
+        private static readonly char[] Vowels = { 'a', 'e', 'i', 'o', 'u' };
+        private static readonly string[] InvalidPairs = { "ab", "cd", "pq", "xy" };
 
         public string Puzzle
         {

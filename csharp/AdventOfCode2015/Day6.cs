@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode2015
@@ -152,8 +151,8 @@ namespace AdventOfCode2015
                 var from = line1[0];
                 var to = line1[2];
 
-                cmd.FromX = @from.Split(',')[0].ToInt();
-                cmd.FromY = @from.Split(',')[1].ToInt();
+                cmd.FromX = from.Split(',')[0].ToInt();
+                cmd.FromY = from.Split(',')[1].ToInt();
 
                 cmd.ToX = to.Split(',')[0].ToInt();
                 cmd.ToY = to.Split(',')[1].ToInt();
