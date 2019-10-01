@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace AdventOfCode2015
 {
     public static class Extensions
     {
+        private static readonly Regex IsNumberRegex = new Regex("^[0-9]+$");
+
         public static string[] SplitLines(this string input)
         {
             return input
@@ -77,6 +80,16 @@ namespace AdventOfCode2015
 
                 yield return clone;
             } while (true);
+        }
+
+        public static bool IsNumber(this string str)
+        {
+            if (string.IsNullOrEmpty(str))
+            {
+                return false;
+            }
+
+            return IsNumberRegex.IsMatch(str);
         }
 
         public static ushort ToUshort(this object obj)
