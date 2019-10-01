@@ -4,8 +4,6 @@ namespace AdventOfCode2015
 {
     public class Day11 : IDay
     {
-        private static readonly char[] Alphabet = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
-
         private static readonly char[] InvalidChars = new[] { 'i', 'o', 'l' };
 
         public string Puzzle
