@@ -34,7 +34,7 @@ namespace AdventOfCode2015
                 arr[to] = initial;
             }
 
-            array = (T[]) array.Clone();
+            array = (T[])array.Clone();
 
             Array.Sort(array);
 
@@ -77,6 +77,30 @@ namespace AdventOfCode2015
 
                 yield return clone;
             } while (true);
+        }
+
+        public static ushort ToUshort(this object obj)
+        {
+            if (obj != null)
+            {
+                if (obj is ushort)
+                {
+                    return (ushort)obj;
+                }
+
+
+                if (ushort.TryParse(obj.ToString(), out var value))
+                {
+                    return value;
+                }
+            }
+            return default(ushort);
+        }
+
+        public static TValue Get<TKey, TValue>(this Dictionary<TKey, TValue> dict, TKey key)
+        {
+            dict.TryGetValue(key, out var value);
+            return value;
         }
     }
 }
