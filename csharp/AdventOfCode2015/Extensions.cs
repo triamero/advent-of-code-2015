@@ -82,6 +82,17 @@ namespace AdventOfCode2015
             } while (true);
         }
 
+        public static IEnumerable<(T Value, int X, int Y)> EnumerateMatrix<T>(this T[,] matrix)
+        {
+            for (int x = 0; x < matrix.GetLength(0); x++)
+            {
+                for (int y = 0; y < matrix.GetLength(1); y++)
+                {
+                    yield return (matrix[x, y], x, y);
+                }
+            }
+        }
+
         public static bool IsNumber(this string str)
         {
             if (string.IsNullOrEmpty(str))

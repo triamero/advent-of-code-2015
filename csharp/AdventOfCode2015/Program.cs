@@ -30,7 +30,7 @@ namespace AdventOfCode2015
             return new IDay[]
             {
                 // new Day7(),
-                new Day17(), 
+                new Day18(),
             };
         }
     }
