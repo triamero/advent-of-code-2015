@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode2015
@@ -20,61 +19,129 @@ namespace AdventOfCode2015
         {
             var ingredients = ParseIngredients(input);
 
-            var counts = GenerateIngredientCounts(ingredients.Length)
-                .Where(x => x.Sum() == 100);
+            int maxTotal = int.MinValue;
 
-            var first = counts.First();
+            int max = MaxSpoons;
 
-            return 0;
+            for (int a = 0; a < max; a++)
+            {
+                for (int b = 0; b < max; b++)
+                {
+                    for (int c = 0; c < max; c++)
+                    {
+                        for (int d = 0; d < max; d++)
+                        {
+                            if (a + b + c + d != 100)
+                            {
+                                continue;
+                            }
+
+                            var totalCapacity = a * ingredients[0].Capacity
+                                            + b * ingredients[1].Capacity
+                                            + c * ingredients[2].Capacity
+                                            + d * ingredients[3].Capacity;
+
+                            var totalDurability = a * ingredients[0].Durability
+                                              + b * ingredients[1].Durability
+                                              + c * ingredients[2].Durability
+                                              + d * ingredients[3].Durability;
+
+                            var totalFlavor = a * ingredients[0].Flavor
+                                              + b * ingredients[1].Flavor
+                                              + c * ingredients[2].Flavor
+                                              + d * ingredients[3].Flavor;
+
+                            var totalTexture = a * ingredients[0].Texture
+                                          + b * ingredients[1].Texture
+                                          + c * ingredients[2].Texture
+                                          + d * ingredients[3].Texture;
+
+
+                            var total = Math.Max(totalCapacity, 0)
+                                        * Math.Max(totalDurability, 0)
+                                        * Math.Max(totalFlavor, 0)
+                                        * Math.Max(totalTexture, 0);
+
+                            if (total > maxTotal)
+                            {
+                                maxTotal = total;
+                            }
+                        }
+                    }
+                }
+            }
+
+            return maxTotal;
         }
 
         /// <inheritdoc />
         public object GetAnswerPart2(string input)
         {
-            return 0;
-        }
+            var ingredients = ParseIngredients(input);
 
-        internal static IEnumerable<int[]> GenerateIngredientCounts(int count)
-        {
-            var max = MaxSpoons - count + 1;
+            int maxTotal = int.MinValue;
 
-            var counts = new int[count];
+            int max = MaxSpoons;
 
-            counts[0] = max;
-
-            for (int i = 1; i < count; i++)
+            for (int a = 0; a < max; a++)
             {
-                counts[i] = 1;
-            }
-
-            yield return counts;
-
-            int bufferSize = 1;
-            int buffer = 1;
-
-            var clone = (int[])counts.Clone();
-
-            while (clone[count - 1] != max)
-            {
-                int i = 0;
-
-                while (true)
+                for (int b = 0; b < max; b++)
                 {
-                    if (clone[i] > 1)
+                    for (int c = 0; c < max; c++)
                     {
-                        break;
+                        for (int d = 0; d < max; d++)
+                        {
+                            if (a + b + c + d != 100)
+                            {
+                                continue;
+                            }
+
+                            var calories = a * ingredients[0].Calories
+                                           + b * ingredients[1].Calories
+                                           + c * ingredients[2].Calories
+                                           + d * ingredients[3].Calories;
+
+                            if (calories != 500)
+                            {
+                                continue;
+                            }
+
+                            var totalCapacity = a * ingredients[0].Capacity
+                                            + b * ingredients[1].Capacity
+                                            + c * ingredients[2].Capacity
+                                            + d * ingredients[3].Capacity;
+
+                            var totalDurability = a * ingredients[0].Durability
+                                              + b * ingredients[1].Durability
+                                              + c * ingredients[2].Durability
+                                              + d * ingredients[3].Durability;
+
+                            var totalFlavor = a * ingredients[0].Flavor
+                                              + b * ingredients[1].Flavor
+                                              + c * ingredients[2].Flavor
+                                              + d * ingredients[3].Flavor;
+
+                            var totalTexture = a * ingredients[0].Texture
+                                          + b * ingredients[1].Texture
+                                          + c * ingredients[2].Texture
+                                          + d * ingredients[3].Texture;
+
+
+                            var total = Math.Max(totalCapacity, 0)
+                                        * Math.Max(totalDurability, 0)
+                                        * Math.Max(totalFlavor, 0)
+                                        * Math.Max(totalTexture, 0);
+
+                            if (total > maxTotal)
+                            {
+                                maxTotal = total;
+                            }
+                        }
                     }
-
-                    i++;
                 }
-
-                //var clone = (int[])
-
-                var beforeBufferClone = (int[])clone.Clone();
-
-                clone[i] = clone[i] - bufferSize;
-                buffer = bufferSize;
             }
+
+            return maxTotal;
         }
 
         private static Ingredient[] ParseIngredients(string input)
@@ -103,7 +170,7 @@ namespace AdventOfCode2015
             return result.ToArray();
         }
 
-        private class Ingredient
+        internal class Ingredient
         {
             public string Name { get; set; }
 
