@@ -4,9 +4,6 @@ namespace AdventOfCode2015.Tests
 {
     public class Day11Tests
     {
-        [TestCase("hijklmmn", ExpectedResult = null)]
-        [TestCase("abbceffg", ExpectedResult = null)]
-        [TestCase("abbcegjk", ExpectedResult = null)]
         [TestCase("abcdefgh", ExpectedResult = "abcdffaa")]
         [TestCase("ghijklmn", ExpectedResult = "ghjaabcc")]
         public object GetAnswerPart1_Test(string input)
